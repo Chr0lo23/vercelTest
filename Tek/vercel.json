@@ -1,0 +1,57 @@
+{
+  "headers": [
+    {
+      "source": "/Build/*.js",
+      "headers": [
+        {
+          "key": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        }
+      ]
+    },
+    {
+      "source": "/Build/*.wasm",
+      "headers": [
+        {
+          "key": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/wasm"
+        }
+      ]
+    },
+    {
+      "source": "/Build/*.data",
+      "headers": [
+        {
+          "key": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/octet-stream"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/Build/*.js",
+      "destination": "/Build/*.js.gz"
+    },
+    {
+      "source": "/Build/*.wasm",
+      "destination": "/Build/*.wasm.gz"
+    },
+    {
+      "source": "/Build/*.data",
+      "destination": "/Build/*.data.gz"
+    }
+  ]
+}
