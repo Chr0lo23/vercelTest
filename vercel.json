@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/Build/Simmers.framework.js.gz",
+      "source": "/Build/Tek.framework.js.gz",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "source": "/Build/Simmers.wasm.gz",
+      "source": "/Build/Tek.wasm.gz",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "source": "/Build/Simmers.data.gz",
+      "source": "/Build/Tek.data.gz",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -42,16 +42,16 @@
   ],
   "rewrites": [
     {
-      "source": "/Build/Simmers.framework.js",
-      "destination": "/Build/Simmers.framework.js.gz"
+      "source": "/Build/Tek.framework.js",
+      "destination": "/Build/Tek.framework.js.gz"
     },
     {
-      "source": "/Build/Simmers.wasm",
-      "destination": "/Build/Simmers.wasm.gz"
+      "source": "/Build/Tek.wasm",
+      "destination": "/Build/Tek.wasm.gz"
     },
     {
-      "source": "/Build/Simmers.data",
-      "destination": "/Build/Simmers.data.gz"
+      "source": "/Build/Tek.data",
+      "destination": "/Build/Tek.data.gz"
     }
   ],
   "cleanUrls": true,
