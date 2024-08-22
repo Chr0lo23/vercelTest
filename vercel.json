@@ -53,5 +53,8 @@
       "source": "/Build/*.data",
       "destination": "/Build/*.data.gz"
     }
-  ]
+  ],
+  "static": {
+    "source": "index.html"
+  }
 }
