@@ -54,7 +54,10 @@
       "destination": "/Build/*.data.gz"
     }
   ],
-  "static": {
-    "source": "index.html"
-  }
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    }
+  ]
 }
