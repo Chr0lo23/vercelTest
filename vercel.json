@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/Build/*.js",
+      "source": "/Build/Tek.framework.js",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "source": "/Build/*.wasm",
+      "source": "/Build/Tek.wasm",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "source": "/Build/*.data",
+      "source": "/Build/Tek.data",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -42,18 +42,19 @@
   ],
   "rewrites": [
     {
-      "source": "/Build/*.js",
-      "destination": "/Build/*.js.gz"
+      "source": "/Build/Tek.framework.js",
+      "destination": "/Build/Tek.framework.js.gz"
     },
     {
-      "source": "/Build/*.wasm",
-      "destination": "/Build/*.wasm.gz"
+      "source": "/Build/Tek.wasm",
+      "destination": "/Build/Tek.wasm.gz"
     },
     {
-      "source": "/Build/*.data",
-      "destination": "/Build/*.data.gz"
+      "source": "/Build/Tek.data",
+      "destination": "/Build/Tek.data.gz"
     }
   ],
   "cleanUrls": true,
   "trailingSlash": false
 }
+
