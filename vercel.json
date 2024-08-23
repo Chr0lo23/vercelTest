@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/Build/Tek.framework.js",
+      "source": "/Build/Tek.framework.js.gz",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "source": "/Build/Tek.wasm",
+      "source": "/Build/Tek.wasm.gz",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "source": "/Build/Tek.data",
+      "source": "/Build/Tek.data.gz",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -36,15 +36,6 @@
         {
           "key": "Content-Type",
           "value": "application/octet-stream"
-        }
-      ]
-    },
-    {
-      "source": "/Build/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
         }
       ]
     }
