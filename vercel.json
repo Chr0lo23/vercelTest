@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/Build/Tek.framework.js",
+      "source": "/Build/Tek.framework.js.gz",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "source": "/Build/Tek.wasm",
+      "source": "/Build/Tek.wasm.gz",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "source": "/Build/Tek.data",
+      "source": "/Build/Tek.data.gz",
       "headers": [
         {
           "key": "Content-Encoding",
