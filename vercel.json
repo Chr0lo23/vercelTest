@@ -40,20 +40,7 @@
       ]
     }
   ],
-  "rewrites": [
-    {
-      "source": "/Build/Tek.framework.js",
-      "destination": "/Build/Tek.framework.js.gz"
-    },
-    {
-      "source": "/Build/Tek.wasm",
-      "destination": "/Build/Tek.wasm.gz"
-    },
-    {
-      "source": "/Build/Tek.data",
-      "destination": "/Build/Tek.data.gz"
-    }
-  ],
   "cleanUrls": true,
   "trailingSlash": false
 }
+
